@@ -1,0 +1,32 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+#map {
+  width: 70vw;
+  height: 100vh;
+}
+
+#venue {
+  width: 30vw;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.title {
+  padding: 20px;
+  margin: 0;
+}
+
+.title:hover {
+  background-color: #447DE9;
+  color: #fff;
+  cursor: pointer;
+}
