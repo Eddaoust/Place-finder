@@ -28,7 +28,7 @@ if (navigator.geolocation) {
 
             // Préparation de la requète avec l'input
             const query = "https://api.foursquare.com/v2/venues/search" +
-                `?client_id=${clientId}&client_secret=${privateId}&ll=50.4,4.9&query=${venue}&v=20180509`; // requête de recherche de lieux a proximité des coordonnées
+                `?client_id=${clientId}&client_secret=${privateId}&ll=${pos.lat},${pos.lng}&query=${venue}&v=20180509`; // requête de recherche de lieux a proximité des coordonnées
 
             // Test si l'input est set
             if (venue.value == ' ') {
